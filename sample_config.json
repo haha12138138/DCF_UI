@@ -1,0 +1,28 @@
+{
+  "stages": [
+    {
+      "years": 5,
+      "driver_source": "consensus",
+      "revenue_growth": [0.05, 0.05, 0.05, 0.05, 0.05],
+      "margin": [0.2, 0.21, 0.22, 0.23, 0.24],
+      "roic_start": 0.15
+    },
+    {
+      "years": 10,
+      "driver_source": "fade",
+      "roic_start": 0.15,
+      "roic_end": 0.10
+    },
+    {
+      "years": 1,
+      "driver_source": "perpetual",
+      "perp_growth": 0.03,
+      "roic_start": 0.10
+    }
+  ],
+  "wacc": 0.10,
+  "tax_rate": 0.25,
+  "initial_revenue": 100.0,
+  "initial_invested_capital": 100.0
+}
+
