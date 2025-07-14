@@ -1,0 +1,26 @@
+{
+  "stages": [
+    {
+      "driver_source": "consensus",
+      "wacc": [0.10, 0.10, 0.10],
+      "years": 3,
+      "tax_rate": 0.25,
+      "initial_revenue": 100.0,
+      "initial_invested_capital": 100.0,
+      "revenue": [105, 110, 115],
+      "ebit": [21, 22, 23],
+      "ebitda": [25, 26, 27],
+      "capex": [5, 5.5, 6]
+    },
+    {
+      "driver_source": "fade",
+      "wacc": 0.10,
+      "years": 5
+    },
+    {
+      "driver_source": "perpetual",
+      "wacc": 0.10,
+      "perp_growth": 0.03
+    }
+  ]
+}
