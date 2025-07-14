@@ -11,8 +11,14 @@ class StageConfigModel(BaseModel):
     years: int
     driver_source: str
     revenue_growth: list[float] | None = None
+    revenue: list[float] | None = None
     margin: list[float] | None = None
+    ebit: list[float] | None = None
+    nopat: list[float] | None = None
     reinvestment_rate: list[float] | None = None
+    capex: list[float] | None = None
+    fcf: list[float] | None = None
+    wacc: list[float] | None = None
     roic_start: float | None = None
     roic_end: float | None = None
     perp_growth: float | None = None

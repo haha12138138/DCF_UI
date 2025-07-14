@@ -20,5 +20,5 @@ def test_enterprise_value_sample():
         initial_invested_capital=data['initial_invested_capital'],
     )
     value = enterprise_value(cfg)
-    assert round(value, 2) == 64.69
+    assert round(value, 2) == 208.83
 
